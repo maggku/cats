@@ -19,6 +19,7 @@ from django.urls import path, include
 from posts import views as index_views
 
 urlpatterns = [
-    path('posts/', index_views.index, name='index'),
+    path('posts/', include('posts.urls')),
     path('admin/', admin.site.urls),
+    
 ]
