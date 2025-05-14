@@ -3,8 +3,11 @@ from django.db import models
 # Create your models here.
 
 class Post(models.Model):
-    title = models.Charfield(max_length=200)
-    content = models.DateTimeField(auto_now_add=True)
+    title = models.CharField(max_length=200)
+    content = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
 
-    def_str_(self):
-    return self.title
+    def __str__(self):
+        return self.title
+        
+    
