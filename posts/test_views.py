@@ -13,7 +13,7 @@ class TestBlogViews(TestCase):
             email="test@test.com"
         )
         self.post = Post(title="Blog title", author=self.user,
-                         slug="blog-title", excerpt="Blog excerpt",
+                         slug="blog-title", 
                          content="Blog content", status=1)
         self.post.save()
 
