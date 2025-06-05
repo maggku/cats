@@ -1,4 +1,4 @@
-## 🚀 Deployment
+##  Deployment
 
 This project was developed using **Visual Studio Code**, version-controlled with **Git**, and is hosted on **GitHub**. The live application is deployed on **Heroku**.
 
@@ -48,11 +48,11 @@ This project was developed using **Visual Studio Code**, version-controlled with
 3. **Deploy on Heroku**
    - Create a new Heroku app:
      ```bash
-     heroku create <app-name>
+     heroku create posts
      ```
    - Set environment variables:
      ```bash
-     heroku config:set SECRET_KEY='<your_secret_key>'
+     heroku config:set SECRET_KEY='<the secret key>'
      heroku config:set DEBUG=False
      ```
    - Push code to Heroku:
