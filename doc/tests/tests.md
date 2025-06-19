@@ -1,3 +1,14 @@
+# Code Validation
+
+## HTML Code Validation
+
+- ![Preview Screenshot](../../assets/screenshots/html-1.png)
+- ![Preview Screenshot](../../assets/screenshots/html-2.png)
+
+## CSS Code Validation
+
+- ![Preview Screenshot](../../assets/screenshots/css.png)
+
 # Testing
 
 ## Overview
